@@ -104,6 +104,10 @@ Thumbs.db
 /test_reflection/
 /test_findchild.cs
 /test_parent.cs
-/Polytoria/Polytoria20.apk
+
 /tools/
 /polytoria-join-capture-extension/
+/.agents
+/.codex
+
+*.apk

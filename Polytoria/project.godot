@@ -28,7 +28,7 @@ warnings/check_invalid_track_paths=false
 
 [application]
 
-config/name="Polytoria"
+config/name="PolyMobile"
 config/version="2.0.3"
 run/main_scene="uid://c2tql65t73ak5"
 config/use_custom_user_dir=true
@@ -41,7 +41,7 @@ boot_splash/show_image=false
 boot_splash/stretch_mode=0
 boot_splash/use_filter=false
 boot_splash/image="uid://ngfx6aps7f0g"
-config/icon="uid://bvolad7rptrsm"
+config/icon="uid://2626y4cv2unu"
 
 [autoload]
 

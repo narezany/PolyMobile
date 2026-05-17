@@ -1,4 +1,4 @@
-<img src="docs/header.svg" width="100%">
+<img src="docs/mobile.png" width="100%">
 
 # PolyMobile 2.0
 
@@ -7,10 +7,6 @@
 [![.NET](https://img.shields.io/badge/.NET-10-purple?logo=dotnet)](https://dotnet.microsoft.com/)
 
 Polytoria is a 3D multiplayer gaming platform built on top of the [Godot Engine](https://godotengine.org/). It provides a set of tools for creating your multiplayer games, with server-client architecture, synchronized state replication and scripting powered by [Luau](https://luau.org/). Worlds can be published to [polytoria.com](http://polytoria.com/), which is accessible from Windows, macOS, Linux, and now **Android/Mobile**!
-
-![15 Seconds by phoe](docs/creator.png)
-
-*Photo credit: [15 Seconds by phoe](https://polytoria.com/places/12661)*
 
 ---
 
