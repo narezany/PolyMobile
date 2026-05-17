@@ -59,8 +59,8 @@ Unless otherwise noted:
 
 ## Contributors
 
-<a href="https://github.com/Polytoria/polytoria-game/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Polytoria/polytoria-game" />
+<a href="https://github.com/narezany/PolyMobile/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=narezany/PolyMobile" />
 </a>
 
 Made with [contrib.rocks](https://contrib.rocks).
