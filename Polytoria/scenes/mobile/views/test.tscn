@@ -1,0 +1,89 @@
+[gd_scene format=3 uid="uid://dp1x0hpu0eu2n"]
+
+[ext_resource type="Script" uid="uid://o8mvx868jsmq" path="res://scripts/mobile/ui/views/ViewTestPage.cs" id="1_luuom"]
+[ext_resource type="Texture2D" uid="uid://bkneu3t63qpl7" path="res://assets/textures/logo/logo-text.png" id="1_ssysh"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_discord"]
+bg_color = Color(0.34509805, 0.39607844, 0.9490196, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_discord_hover"]
+bg_color = Color(0.39607844, 0.44705883, 1, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_discord_pressed"]
+bg_color = Color(0.2509804, 0.28627452, 0.7294118, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+
+[node name="Layout" type="VBoxContainer" unique_id=868196800]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_vertical = 3
+theme_override_constants/separation = 16
+alignment = 1
+script = ExtResource("1_luuom")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1147667580]
+custom_minimum_size = Vector2(0, 50)
+layout_mode = 2
+texture = ExtResource("1_ssysh")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Label" type="Label" parent="." unique_id=1692775924]
+layout_mode = 2
+text = "INFO"
+horizontal_alignment = 1
+
+[node name="Disclaimer" type="Label" parent="." unique_id=132014220]
+layout_mode = 2
+text = "Unofficial Android port by @nrz / narezany. This build is experimental and may violate Polytoria Terms of Service. Use it at your own risk."
+autowrap_mode = 3
+horizontal_alignment = 1
+
+[node name="DiscordButton" type="Button" parent="." unique_id=370046761]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_color = Color(1, 1, 1, 1)
+theme_override_colors/font_pressed_color = Color(1, 1, 1, 1)
+theme_override_styles/normal = SubResource("StyleBoxFlat_discord")
+theme_override_styles/hover = SubResource("StyleBoxFlat_discord_hover")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_discord_pressed")
+text = "JOIN DISCORD"
+
+[node name="LocalPlaceButton" type="Button" parent="." unique_id=222333119]
+layout_mode = 2
+text = "LOCAL BASEPLATE"
+
+[node name="ClientScriptsToggle" type="CheckButton" parent="." unique_id=1892759142]
+layout_mode = 2
+text = "CLIENT SCRIPTS"
+
+[node name="ClientScriptsHint" type="Label" parent="." unique_id=865519067]
+modulate = Color(1, 1, 1, 0.5882353)
+layout_mode = 2
+text = "If worlds crash or freeze, turn this off."
+autowrap_mode = 3
+horizontal_alignment = 1
+
+[node name="Version" type="Label" parent="." unique_id=1099882934]
+modulate = Color(1, 1, 1, 0.40784314)
+layout_mode = 2
+text = "v2.0.0"
+horizontal_alignment = 1
+
+[node name="RestartApp" type="Button" parent="." unique_id=133365803]
+layout_mode = 2
+text = "RESTART APP"

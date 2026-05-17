@@ -1,0 +1,109 @@
+## -- Godot -- ##
+
+# Auto-generated Godot editor/import cache
+.godot/
+
+# Godot Export Templates (Please copy from the template: export_presets.cfg.template)
+Polytoria/export_presets.cfg
+
+## -- .NET/C# Build Artifacts -- ##
+
+# Compiled output directories
+bin/
+obj/
+
+# Debug symbol files
+*.pdb
+
+# dotnet-trace files
+*.nettrace
+
+# User-specific MSBuild overrides
+*.csproj.user
+
+# Backup/old project files
+*.csproj.old*
+
+# Test result output
+TestResults/
+
+## -- IDE & Editor -- ##
+
+# JetBrains Rider
+.idea/
+
+# Visual Studio
+.vs/
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+.history/
+
+## -- Android -- ##
+
+# Generated Android build files (except the manifest)
+/Polytoria/android/build/*
+
+# Signing keys
+/Polytoria/android/key/*
+/Polytoria/keys
+
+## -- Generated/Temporary Files -- ##
+
+# Project-level temp folders
+/temp/
+/Polytoria/temp/
+
+# Diagnostic and report output
+/Polytoria/reports/
+/Polytoria/trap/
+/Polytoria/client_dump.xml
+/Polytoria/dump.tscn
+
+# API reference snapshot
+/Polytoria/apiref.json
+
+# Packed/exported scene test files
+/Polytoria/test.packed
+/Polytoria/test.ptpacked
+
+
+## -- Sample projects -- ##
+
+# Local world storage for contributors 
+/Polytoria/samples/worlds/temp
+/samples/projects/temp
+
+# .poly folders
+.poly/
+
+
+## -- Launch configrations -- ##
+
+# Local launch profiles
+/Polytoria/Properties/launchSettings.json
+
+
+## -- Exceptions -- ##
+
+# Deeplink plugin's prebuilt binary
+!/Polytoria/addons/DeeplinkPlugin/bin/
+
+# Misc
+ers
+
+.DS_Store
+Thumbs.db
+
+# Local temporary files & scratch scripts
+/context.txt
+/ИСХОДИНК.txt
+/вывод.txt
+/test_reflection.cs
+/test_reflection/
+/test_findchild.cs
+/test_parent.cs
+/Polytoria/Polytoria20.apk
+/tools/
+/polytoria-join-capture-extension/
